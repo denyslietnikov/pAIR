@@ -231,7 +231,7 @@ pair-846dcd4cb6-hvmsj   1/1     Running   0          3m21s
 ## Demo
 
 Here you can find some screenshots that show how pAIR works.  
-Random internet radio stations built into moOde streaming music and the pAIR bot comments on it just like a radio DJ, isn't it??
+Random internet radio stations built into moOde streaming music and the pAIR bot comments on it just like a radio DJ, isn't it?
 
 <img src="./docs/pair-example-01.png" width="100%" alt="pair-example-01">
 <img src="./docs/pair-example-02.png" width="100%" alt="pair-example-02">
