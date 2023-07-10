@@ -57,9 +57,9 @@ This project was implemented using the following approaches and tools:
 - moOde Audio Player
 - SSH
 
-### Link Diagram
+### System Context Diagram
 
-<img src="./docs/Link_diagram.png" width="75%" alt="Link_diagram">
+<img src="./docs/diagram.png" width="75%" alt="diagram">
 
 ## Used developments and author's know-how
 
