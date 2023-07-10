@@ -103,19 +103,19 @@ func Execute() {
 func handleUpdates(bot *tgbotapi.BotAPI, gpt *GPT, userID int64, fileContentChan <-chan string) {
 	currentFileContent := ""
 	for {
-		// Ждем получения нового значения fileContent
+		// Wait for a new value of fileContent
 		fileContent := <-fileContentChan
 
-		// Проверяем, изменилось ли значение fileContent
+		// Check if fileContent has changed
 		if fileContent != currentFileContent {
-			// Обновляем текущее значение fileContent
+			// Update the current value of fileContent
 			currentFileContent = fileContent
 
-			// Вызываем processQueries с новым значением fileContent
+			// Call processQueries with the new value of fileContent
 			processQueries(bot, gpt, userID, currentFileContent)
 		}
 
-		// Добавляем небольшую задержку перед следующей проверкой
+		// Add a small delay before the next check
 		time.Sleep(time.Second)
 	}
 }
