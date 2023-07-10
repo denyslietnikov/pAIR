@@ -184,8 +184,9 @@ flux-system   helm-controller-74b5f87d94-4g9q2          1/1     Running   0     
 - Get your OpenAI API key  
   You can create an account on the OpenAI website and [generate your API key](https://platform.openai.com/account/api-keys).  
 - Get your telegram bot token
-  Create a bot from Telegram [@BotFather](https://t.me/BotFather) and obtain an access token.  
-- Clone the pair-flux-system private repository we earlier created
+  Create a bot from Telegram [@BotFather](https://t.me/BotFather) and obtain an access token.
+- Create your own Github copy of the pAIR repository, which will be the only source of truth for implementing the GitOps method.
+- Clone your private Github repository of the pair-flux system we created earlier.
 - Add and commit the following yaml files in it which you can find in the current project repository:  
   ./clusters/flux-system/pair-gr.yaml  
   ./clusters/flux-system/pair-hr.yaml  
