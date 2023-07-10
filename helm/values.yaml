@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   repository: "ghcr.io/denyslietnikov"
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0.0-947f2f7"
+  tag: "v1.0.1-f8e03b9"
   arch: "arm"
   os: "linux"
 secrets:
