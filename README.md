@@ -226,12 +226,13 @@ pair-846dcd4cb6-hvmsj   1/1     Running   0          3m21s
 ```
 - If the pAIR pod is up and runnig, then the bot is ready to go.
 - Turn on the music in the moOde player and select "Start a new chat" in the bot menu.
-- The bot will start generaiting introductions, acting as a radio DJ
+- The bot will start generaiting introductions, acting as a radio DJ.
+- To stop generating messages, just stop playing the tracks.
 
 ## Demo
 
 Here you can find some screenshots that show how pAIR works.  
-Random internet radio stations built into moOde streaming music and the pAIR bot comments on it just like a radio DJ, isn't it??
+Random internet radio stations built into moOde streaming music and the pAIR bot comments on it just like a radio DJ, isn't it?
 
 <img src="./docs/pair-example-01.png" width="100%" alt="pair-example-01">
 <img src="./docs/pair-example-02.png" width="100%" alt="pair-example-02">
