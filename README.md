@@ -1,6 +1,6 @@
 # personal AI Radio
 
-<img src="./docs/pAIR_img_01.png" width="75%" alt="pAIR">
+<img src="./docs/pair_img_01.png" width="75%" alt="pAIR">
 
 
 ## Contents
@@ -71,7 +71,7 @@ The author's know-how is the integration of the selected Telegram bot with the p
 
 This is the list of hardware I used to implement the project in my home lab:
 - Raspberry Pi 4 Model B 4GB RAM (master node)
-- Raspberry Pi 3 Model B+ 1GB RAM (secondary node)
+- Raspberry Pi 3 Model B+ 1GB RAM (agent node)
 - Raspberry Pi 3 Model A+ 512MB RAM with PCM5122 DAC HAT (moOde audio player)
 
 ## Installation
@@ -130,7 +130,7 @@ export KUBECONFIG=`pwd`/kubeconfig
 kubectl get node -o wide
 ```
 - Now you have kubectl access from your laptop to your Raspberry Pi running k3s
-- Join ther second node: 
+- Join the agent node: 
 ```sh
 k3sup join --ip $IP --server-ip $SERVER_IP --user pi
 ```
