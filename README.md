@@ -60,7 +60,7 @@ This project was implemented using the following approaches and tools:
 
 ### System Context Diagram
 
-<img src="./docs/diagram.png" width="75%" alt="diagram">
+<img src="./docs/diagram.png" width="100%" alt="diagram">
 
 ## Used developments and author's know-how
 
