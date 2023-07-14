@@ -1,6 +1,6 @@
 # personal AI Radio
 
-<img src="./docs/pair_img_01.png" width="75%" alt="pAIR">
+<img src="./docs/pair-img-01.png" width="75%" alt="pAIR">
 
 
 ## Contents
@@ -104,7 +104,7 @@ sudo ssh-copy-id pi@ip_of_your_raspberry
 - Setup audio devices and services if necessary
 - Turn on the Metadata file via Audio Config in the MPD Options section
 
-<img src="./docs/enable_metadata.png" width="75%" alt="enable_metadata">
+<img src="./docs/enable-metadata.png" width="75%" alt="enable-metadata">
 
 Note: Song info is via the command get_currentsong which returns the contents
    of the Metadata file /var/local/www/currentsong.txt encoded as JSON
