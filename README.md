@@ -16,7 +16,7 @@
 
 ## What is this project about
 
-This work is an experimental creative PET project completed as part of the DevOps Fundamentals and Kubernetes course by Prometheus.
+This work is an experimental creative PET project completed as part of the Basics of DevOps and Kubernetes course by Prometheus.
 
 ## Project goals
 
