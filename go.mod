@@ -1,4 +1,4 @@
-module github.com/dester37/pair
+module github.com/denyslietnikov/pair
 
 go 1.20
 
