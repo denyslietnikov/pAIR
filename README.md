@@ -22,6 +22,7 @@ This work is an experimental creative PET project completed as part of the DevOp
 
 - Gain practical skills in applying the technologies and tools learned during the course.
 - Create a completed working prototype of a software product and an integrated system that addresses a potentially in-demand user function.
+- Implement the GitOps methodology (i.e. versioning the infrastructure in Git) and automate infrastructure and deployment management in Kubernetes using Flux.
 - Another important goal was to have fun using Raspberry Pi microcomputers 🙂
 
 ## Project Essence
