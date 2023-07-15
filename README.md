@@ -46,11 +46,13 @@ This project was implemented using the following approaches and tools:
 ### Kubernetes:
 - k3s
 - k3sup
+- Secrets
 
 ### GitOps:
 - GitHub Actions
+- GitHub repository secrets
 - GitHub Container Registry
-- Helm
+- Helm charts
 - FluxCD
 
 ### Raspberry Pi:
