@@ -40,8 +40,10 @@ This project was implemented using the following approaches and tools:
 
 ### Telegram Bot:
 - Golang
+- Git
 - GitHub
 - OpenAI API "gpt-3.5-turbo" model
+- API Tokens
 
 ### Kubernetes:
 - k3s
